@@ -1352,7 +1352,7 @@
 
             // Change the playback rate.
             if (self._webAudio && sound._node && sound._node.bufferSource) {
-              sound._node.bufferSource.playbackRate.setValueAtTime(rate, Howler.ctx.currentTime);;
+              sound._node.bufferSource.playbackRate.setValueAtTime(rate, Howler.ctx.currentTime);
             } else if (sound._node) {
               sound._node.playbackRate = rate;
             }
